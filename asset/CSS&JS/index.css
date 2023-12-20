@@ -124,7 +124,7 @@
 .whatsapp
 {
     width: 50px;
-    height: 630px;
+    height: 610px;
     display: flex;
     margin-left: 20px;
     position: fixed;
@@ -138,6 +138,7 @@
 .projects
 {
     width: 100%;
+    height: auto                             ;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -158,6 +159,8 @@
     height: auto;
     /* background-color: #F7F858; */
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
     justify-content: space-between;
     padding: 30px;
     box-sizing: border-box;
@@ -228,6 +231,10 @@
   box-sizing: border-box;
   /* background-color: #F7F858; */
 
+}
+.what-image img
+{
+    width: 100%;
 }
 .dsr
 {

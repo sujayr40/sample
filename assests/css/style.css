@@ -578,7 +578,7 @@ a{
     }
 }
 
-@media (max-width: 460px){
+@media (min-width: 350px){
     .testimonials__item{
         width: 80%;
     }

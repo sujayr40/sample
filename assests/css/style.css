@@ -582,6 +582,13 @@ a{
     .testimonials__item{
         width: 80%;
     }
+    .testimonials__img img{
+        width: 50PX;
+        height: 50px;
+    }
+    .testimonials__item:hover .testimonials__img img{
+        transform: translateX(160px) rotate(360deg);
+    }
 }
 /* MEDIA QUERY */
 @media (min-width: 860px){

@@ -186,6 +186,7 @@ a{
 @media (max-width: 960px){
     .nav{
         position: absolute;
+        display: none;
         top: 0;
         right: 0;
         width: 0;
@@ -202,6 +203,8 @@ a{
     }
     .show-menu{
         width: 60%;
+        display: block;
+        transition: all 400ms ease-in-out;
     }
 }
 .nav__link{
@@ -572,6 +575,12 @@ a{
 @media (min-width: 660px){
     .services__content__descripion{
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 460px){
+    .testimonials__item{
+        width: 80%;
     }
 }
 /* MEDIA QUERY */
